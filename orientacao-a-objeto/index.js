@@ -1,5 +1,5 @@
 import { Cliente } from "./Cliente.js";
-// import { ContaCorrente } from "./Conta/ContaCorrente.js";
+import { ContaCorrente } from "./Conta/ContaCorrente.js";
 // import { ContaPoupanca } from "./Conta/ContaPoupanca.js";
 // import { ContaSalario } from "./Conta/ContaSalario.js";
 import {Gerente} from "./Funcionario/Gerente.js";
@@ -8,7 +8,7 @@ import {SistemaAutenticacao} from "./SistemaAutenticacao.js";
 
 const cliente1 = new Cliente("Ricardo", 11122233309);
 
-// const contaCorrenteRicardo = new ContaCorrente(cliente1, 1001);
+const contaCorrenteRicardo = new ContaCorrente(cliente1, 1001);
 // contaCorrenteRicardo.depositar(500);
 // contaCorrenteRicardo.sacar(100);
 

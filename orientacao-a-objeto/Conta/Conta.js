@@ -1,5 +1,4 @@
-//import { Cliente } from "./../Cliente.js";
-import { Cliente } from "./Cliente.js";
+import { Cliente } from "./../Cliente.js";
 
 export class Conta {
     // proposta que está sendo feita para uma sintaxe de campos privados dentro do JS.
